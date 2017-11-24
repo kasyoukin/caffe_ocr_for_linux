@@ -1,0 +1,1 @@
+# caffe_ocr_for_linux

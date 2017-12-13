@@ -1,0 +1,20 @@
+src/caffe/layers/reverse_time_layer.cpp: In instantiation of ‘void caffe::ReverseTimeLayer<Dtype>::Forward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/reverse_time_layer.cpp:151:1:   required from here
+src/caffe/layers/reverse_time_layer.cpp:41:13: warning: unused variable ‘count’ [-Wunused-variable]
+   const int count = top[0]->count();
+             ^
+src/caffe/layers/reverse_time_layer.cpp: In instantiation of ‘void caffe::ReverseTimeLayer<Dtype>::Backward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<bool>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/reverse_time_layer.cpp:151:1:   required from here
+src/caffe/layers/reverse_time_layer.cpp:100:13: warning: unused variable ‘count’ [-Wunused-variable]
+   const int count = top[0]->count();
+             ^
+src/caffe/layers/reverse_time_layer.cpp: In instantiation of ‘void caffe::ReverseTimeLayer<Dtype>::Forward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/reverse_time_layer.cpp:151:1:   required from here
+src/caffe/layers/reverse_time_layer.cpp:41:13: warning: unused variable ‘count’ [-Wunused-variable]
+   const int count = top[0]->count();
+             ^
+src/caffe/layers/reverse_time_layer.cpp: In instantiation of ‘void caffe::ReverseTimeLayer<Dtype>::Backward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<bool>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/reverse_time_layer.cpp:151:1:   required from here
+src/caffe/layers/reverse_time_layer.cpp:100:13: warning: unused variable ‘count’ [-Wunused-variable]
+   const int count = top[0]->count();
+             ^
